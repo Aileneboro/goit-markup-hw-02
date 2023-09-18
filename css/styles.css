@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -37,7 +37,7 @@ li {
   line-height: 1.16;
 }
 
-button {
+.button-order {
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
@@ -53,18 +53,46 @@ h1 {
   line-height: 1.07;
 }
 
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.img-team {
+  background-color: #ffffff;
+}
+
 .title-main {
   background-color: #2e2f42;
   text-align: center;
 }
 
-button:hover,
-button:focus {
+.button-order:hover,
+.button-order:focus {
   background-color: #404bbf;
 }
 
-footer {
+.subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.footer-color {
   color: #f4f4fd;
   background-color: #2e2f42;
-  font-size: 16px;
 }
